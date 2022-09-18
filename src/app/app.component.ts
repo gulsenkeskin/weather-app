@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { WeatherData } from './models/weather.model';
 import { WeatherService } from './services/weather.service';
 
 @Component({
@@ -13,11 +12,10 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.weatherService.getWeatherData('Londra').subscribe({
-      next: (response: WeatherData) => {
+      next: (response) => {
         console.log(response);
 
       }
     })
   }
-
 }
