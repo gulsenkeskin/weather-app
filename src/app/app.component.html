@@ -30,7 +30,7 @@
             <span>min</span>
           </div>
           <div class="info-block-value">
-            {{ weatherData.forecasts[0].low }}°C
+            {{ weatherData.forecasts[0].low | number: "1.0-0" }}°C
           </div>
         </div>
 
@@ -40,7 +40,7 @@
             <span>max</span>
           </div>
           <div class="info-block-value">
-            {{ weatherData.forecasts[0].high }}°C
+            {{ weatherData.forecasts[0].high | number: "1.0-0" }}°C
           </div>
         </div>
         <div class="info-block">
