@@ -1,5 +1,11 @@
 # WeatherApp
 API i use: https://rapidapi.com/apishub/api/yahoo-weather5
+## Screen
+![image](https://user-images.githubusercontent.com/63197899/190973830-4c4bbdca-96d9-4be5-97fa-006d46e5fc31.png)
+
+![image](https://user-images.githubusercontent.com/63197899/190973789-aa799f03-5cfe-42b7-bb76-005c65f4136e.png)
+
+
 ##
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
