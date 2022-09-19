@@ -140,3 +140,26 @@ body {
   font-size: 0.8em;
   text-align: center;
 }
+
+.info-block-value {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+}
+
+.search {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.search input {
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  border-radius: 20px;
+  padding: 1em;
+  color: #ededed;
+  font-size: 0.8em;
+  text-align: center;
+}
